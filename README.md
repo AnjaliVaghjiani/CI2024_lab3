@@ -24,8 +24,12 @@ The following table summarizes the performance of the Bidirectional A* algorithm
 
 
 - **Puzzle Size**: The size of the puzzle grid (e.g., 2x2, 3x3, etc.).
-- **Cost (Nodes Evaluated)**: The total number of nodes evaluated during the search.
+- **Cost (Nodes Evaluated)**: The total number of nodes evaluated during the search. (Total noded evaluted during the search)
 - **Quality (Moves)**: The number of moves in the solution path (or the number of steps to reach the goal).
 - **Efficiency (Quality/Cost)**: A metric of the algorithm's efficiency, calculated as the ratio of Quality to Cost.
 - **Time Taken (s)**: The time (in seconds) it took to run the Bidirectional A* search for the given puzzle size.
+
+## Notes
+- The N-Puzzle has complex branching and memory requirements, especially for larger dimenesions.
+- Bidirectional A* significantly reduces the search space but may require significant memory as puzzle dimension increases.
 
