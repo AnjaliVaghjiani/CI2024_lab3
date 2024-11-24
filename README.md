@@ -18,9 +18,9 @@ The following table summarizes the performance of the Bidirectional A* algorithm
 
 | Puzzle Size | Cost (Nodes Evaluated) | Quality (Moves) | Efficiency (Quality/Cost) | Time Taken (s) |
 |-------------|------------------------|-----------------|---------------------------|----------------|
-| 2x2         | 2             | 4   | 2          | 0.0sec     |
-| 3x3         | 25             | 29   | 1.1600          | 0.1sec     |
-| 4x4         | 51             | 53   | 1.0392          | 5.7sec     |
+| 2x2         | 4             | 4   | 1          | 0.0sec     |
+| 3x3         | 1822           | 30   |    0.0165       | 0.1sec     |
+| 4x4         | 1407394             | 53   | 0.00          | 1 min 3.1sec     |
 
 
 - **Puzzle Size**: The size of the puzzle grid (e.g., 2x2, 3x3, etc.).
